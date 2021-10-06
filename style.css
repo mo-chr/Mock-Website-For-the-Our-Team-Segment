@@ -5,7 +5,7 @@
 }
 
 .header {
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100%;
     background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(images/banner.jpg);
     background-position: center;
@@ -62,7 +62,7 @@ nav img {
     width: 90%;
     color: white;
     position: absolute;
-    top: 50%;
+    top: 0%;
     left: 50%;
     transform: translate(-50%,50%);
     text-align: center;
@@ -177,4 +177,44 @@ p{
  {
      box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
  }
+@media(max-width: 700px)
+{
+    .row
+    {
+        flex-direction: column;
+    }
+}
+/*------ Regards*----- */
+.regards
+{
+    width:80%;
+    margin:auto;
+    padding-top: 50px;
+}
+.regards-col
+{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.regards-col img
+{
+    width: 100% ;
+}.middletext
+ {
+    padding-left: 3%;
+ }
 
+/*------ Footer ----- */
+.footer
+{
+    margin: auto;
+    text-align: center;
+    padding-top: 300px;
+}
+.p
+{
+    text-align: center;
+}
