@@ -1,20 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"/>
+    <meta name="viewport" content="width= device-width , initialscale=1.0">
+    <title>CastleBee Website Design</title>
     <link rel="stylesheet" href="style.css">
-    <section class = "Header">  <div class="text-box">
-        <h1><u>Notre équipe</u></h1>
-    </div>
-    </section>
-
-
+    <link rel="preconnect"href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d994108362.js" crossorigin="anonymous"></script>
 </head>
 <body>
-<div class="container">
+<section class="header">
+
+    <nav>
+        <a href="index.html"><img src="images/logo-dark-contrasted.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">BLOG</a></li>
+
+            </ul>
+        </div>
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+    </nav>
+
+    <div class="text-box">
+        <h1>Castle Bee</h1>
+        <p> DATA & CLOUD FACTORY</p>
+        <a href="" class="visit-button">Visit Us to know More!</a>
+    </div>
+</section>
+
+<!----About Us------>
+
+<section class="about">
+    <h1> Our Expertise </h1>
+    <p>Hello darkness my old friend</p>
+
+    <div class="row">
+        <div class="about-col">
+            <h3>Decisions Mentoring</h3>
+            <p>Operational Research <br>Predictive Models</p>
+        </div>
+
+
+        <div class="about-col">
+            <h3>Industry 4.0</h3>
+            <p>Detection of defective automations<br>Vision via computers <br>Predictive Maintenance</p>
+        </div>
+
+        <div class="about-col">
+            <h3>Optical Character Recognition</h3>
+            <p>Evaluation of multi-formats documents (invoices, quotes, receipts) <br>CV evaluation</p>
+        </div>
+    </div>
+
+</section>
+<!-------Our Team----->
+<section class="about"><h1> Our Team </h1></section>
+<section><div class="container">
     <div class="card">
         <div class="content">
             <div class="imgBx">
@@ -63,7 +113,46 @@
             </div>
         </div>
     </div>
+</section>
+<!-----InRegards----->
 
-</div>
+<section class="regards">
+    <div class="row">
+        <div class="regards-col">
+            <img src="images/607223.jpg" alt="">
+        </div>
+        <div class="middletext">
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;In Regards to</h1>
+        <p>Castle Bee is a Data factory, specialized in the valuation of industrial data. We work with our clients on subjects relating to Industry 4.0.
+
+            Our achievements relate to the subjects of BIM, NDT, predictive maintenance and computer vision.
+
+            We support our customers with technical assistance and fixed price, throughout all stages of their data projects.
+
+            From AMOA to industrialization, we deliver complete and turnkey services to our customers.</p>
+        </div>
+    </div>
+</section>
+
+<!---- Footer ---->
+<section class="footer"> <footer><p> Made By Mohammad Chreif © </p> </footer> </section>
+
+
+
+
+<!---JS for the menu----->
+<script>
+
+    var navLink = document.getElementById('navLinks');
+    function showMenu() {
+        navLink.style.right = "0";
+    }
+    function hideMenu()
+    {
+        navLink.style.right = "-200px";
+
+
+    }
+</script>
 </body>
 </html>
