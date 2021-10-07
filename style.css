@@ -6,6 +6,18 @@
     box-sizing: border-box;
     font-family: 'Bellota Text', cursive;
 }
+.text-box
+{
+    width: 90%;
+    color: #83b455;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    text-align: center;
+    text-underline: #83b455;
+    font-size: 30px;
+}
 body
 {
     display: flex;
