@@ -17,6 +17,7 @@
     text-align: center;
     text-underline: #83b455;
     font-size: 30px;
+    margin-top: 30px;
 }
 body
 {
@@ -33,9 +34,10 @@ body
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 300px;
 }
 .container .card
-{
+{   
     width: 330px;
     height: 416px;
     padding: 60px 30px;
