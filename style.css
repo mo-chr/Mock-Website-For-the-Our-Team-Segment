@@ -235,7 +235,7 @@ p{
     justify-content: space-between;
 }.about-col{
      flex-basis:31%;
-    background: whitesmoke;
+    background: ghostwhite;
     border-radius: 10px;
     margin-bottom:5% ;
     padding: 20px 12px;
