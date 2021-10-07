@@ -10,6 +10,7 @@
      flex-wrap: wrap;
      margin-top: 100px;
  }
+
 .container .card
 {
     width: 330px;
@@ -18,9 +19,10 @@
     margin: 20px;
     background: #f2f3f7;
     box-shadow: 0.6em 0.6em 1.2em #d2dce9,
-    -0.5em -0.5em 1em #ffffff;
+    -0.5em -0.5em 1em white;
     border-radius: 20px;
 }
+
 .container .card .content
 {
     display: flex;
@@ -77,6 +79,7 @@
 {
     color: #83b455;
 }
+
 .header {
     min-height: 60vh;
     width: 100%;
@@ -232,7 +235,7 @@ p{
     justify-content: space-between;
 }.about-col{
      flex-basis:31%;
-    background: antiquewhite;
+    background: whitesmoke;
     border-radius: 10px;
     margin-bottom:5% ;
     padding: 20px 12px;
@@ -248,7 +251,7 @@ p{
  }
  .about-col:hover
  {
-     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+     box-shadow: 0 0 20px 0px #83b455;
  }
 @media(max-width: 700px)
 {
